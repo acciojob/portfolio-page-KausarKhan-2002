@@ -1,2 +1,114 @@
 
 /* Your CSS Code here. */
+* {
+  margin: 0;
+}
+
+body {
+  background: #222;
+}
+
+#portfolio {
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+/* =================== Information Section =========================== */
+#myInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #444;
+  padding: 20px 15px;
+  border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
+  -ms-border-radius: 20px 20px 0 0;
+  -o-border-radius: 20px 20px 0 0;
+}
+#myInfo img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#myInfo h1 {
+  text-align: center;
+  color: rgb(255, 145, 2);
+  margin-top: 1rem;
+}
+
+#myInfo a {
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+  background: rgb(168, 104, 19);
+  padding: 3px 6px;
+  margin-top: 0.5em;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+#portfolio:hover a {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+
+/* =================== Skills Section =========================== */
+#skills {
+  background: #c9c9c9;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(161, 161, 161);
+}
+
+#skills h2 {
+  margin-left: 1rem;
+}
+
+#skills ul {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+
+/* =================== Projects Section =========================== */
+#projects {
+  background: #c9c9c9;
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 0 0 20px 20px;
+  -webkit-border-radius: 0 0 20px 20px;
+  -moz-border-radius: 0 0 20px 20px;
+  -ms-border-radius: 0 0 20px 20px;
+  -o-border-radius: 0 0 20px 20px;
+}
+
+#projects h2 {
+  margin-left: 1rem;
+}
+
+#projects ul {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
